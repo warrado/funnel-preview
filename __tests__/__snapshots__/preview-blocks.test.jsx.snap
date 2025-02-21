@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewButton renders unchanged 1`] = `
+<div>
+  <button
+    style="background-color: black; color: blue; border-width: 1px; border-color: rgba(0, 0, 0, 0.1); border-radius: 8px; box-shadow: 0 0 1px #00000014,0 1px 4px #0000001f; font-weight: bold; margin: 10px; padding: 12px;"
+  >
+    test button
+  </button>
+</div>
+`;
+
+exports[`PreviewImage renders unchanged 1`] = `
+<div>
+  <img
+    alt="test"
+    src="https://via.placeholder.com/150"
+    style="width: 80%; border-radius: 16px;"
+  />
+</div>
+`;
+
+exports[`PreviewList renders all children 1`] = `
+<div>
+  <div
+    class="grid grid-cols-3 gap-4 p-3 mt-2 mb-2"
+  >
+    <div
+      class="flex flex-col justify-center items-center"
+    >
+      <img
+        alt="title1"
+        src="https://via.placeholder.com/150"
+        style="width: 80%; border-radius: 16px;"
+      />
+      <p
+        class="text-sm"
+      >
+        description1
+      </p>
+    </div>
+    <div
+      class="flex flex-col justify-center items-center"
+    >
+      <img
+        alt="title2"
+        src="https://via.placeholder.com/250"
+        style="width: 80%; border-radius: 16px;"
+      />
+      <p
+        class="text-sm"
+      >
+        description2
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PreviewList renders all children with mixed children 1`] = `
+<div>
+  <div
+    class="grid grid-cols-3 gap-4 p-3 mt-2 mb-2"
+  >
+    <div
+      class="flex flex-col justify-center items-center"
+    >
+      <img
+        alt="title1"
+        src="https://via.placeholder.com/150"
+        style="width: 80%; border-radius: 16px;"
+      />
+      <p
+        class="text-sm"
+      >
+        description1
+      </p>
+    </div>
+    <p>
+      Test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`PreviewList renders with no children 1`] = `
+<div>
+  <div
+    class="grid grid-cols-3 gap-4 p-3 mt-2 mb-2"
+  />
+</div>
+`;
+
+exports[`PreviewPage renders unchanged 1`] = `
+<div>
+  <div
+    class="overflow-auto w-full h-full text-center"
+  >
+    <p
+      style="text-align: right; font-weight: bold; padding: 12px 0px 12px 0px;"
+    >
+      test
+    </p>
+    <button
+      style="background-color: black; color: blue; border-width: 1px; border-color: rgba(0, 0, 0, 0.1); border-radius: 8px; box-shadow: 0 0 1px #00000014,0 1px 4px #0000001f; font-weight: bold; margin: 10px; padding: 12px;"
+    >
+      test button
+    </button>
+    <img
+      alt="test"
+      src="https://via.placeholder.com/150"
+      style="width: 80%; border-radius: 16px;"
+    />
+    <div
+      class="grid grid-cols-3 gap-4 p-3 mt-2 mb-2"
+    >
+      <div
+        class="flex flex-col justify-center items-center"
+      >
+        <img
+          alt="title1"
+          src="https://via.placeholder.com/150"
+          style="width: 80%; border-radius: 16px;"
+        />
+        <p
+          class="text-sm"
+        >
+          description1
+        </p>
+      </div>
+      <div
+        class="flex flex-col justify-center items-center"
+      >
+        <img
+          alt="title2"
+          src="https://via.placeholder.com/250"
+          style="width: 80%; border-radius: 16px;"
+        />
+        <p
+          class="text-sm"
+        >
+          description2
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PreviewText renders 1`] = `
+<div>
+  <p
+    style="text-align: right; font-weight: bold; padding: 12px 0px 12px 0px;"
+  >
+    test
+  </p>
+</div>
+`;
