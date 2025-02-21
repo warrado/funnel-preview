@@ -3,7 +3,9 @@
 This repo contains my (Radoslaw Warzocha) solution to the Perspective recruitment task.
 The task instructions can be found here: [Work Sample – Radosław Warzocha](https://perspectiveco.notion.site/Work-Sample-Rados-aw-Warzocha-19ef87b6a844808997bdf0492a0c4cf7)
 
-This `README` is describing the practical aspects of the solution (e.g. build/deploy etc.). For the app design considerations, check [`DESIGN.md`](./DESIGN.md)
+The app is deployed at [https://funnel-preview-4p58-olive.vercel.app/](https://funnel-preview-4p58-olive.vercel.app/)
+
+This `README` is describing the practical aspects of the solution (e.g. build/deploy etc.). For the app design considerations, check [`DESIGN.md`](./DESIGN.md). For final notes, check [NOTES.md](./NOTES.md).
 
 ## Working localy
 
@@ -25,7 +27,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Running tests
 
-TBD.
+Ye olde
+
+```
+npm run test
+```
+
+;)
+
+There's just a bunch of jest tests in the `__tests__` directory. Unfortunatelly no e2e tests at the moment.
 
 ## Deploying
 
